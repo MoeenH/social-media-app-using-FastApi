@@ -61,6 +61,7 @@ def update_post(id :int,post : Post):
     return {"Message" : "Updated Successfully"}
 
 
+
 # ALL FUNCTIONS
 def find_post(id):          #to find a specific post
     for i in my_posts:
